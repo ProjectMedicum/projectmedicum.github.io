@@ -7,35 +7,38 @@
 	<meta charset="UTF-8">
 	<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity=
 	"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" rel="stylesheet">
+	<script crossorigin="anonymous" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" src=
+	"https://code.jquery.com/jquery-3.1.1.js">
+	</script>
 	<script type="text/javascript">
-	   //src="RandomPage.js"
+	      //src="RandomPage.js"
 
-	   var links = new Array()
-	   links[ 0 ] = "Figowka_Gronkowcowa.html"
-	   links[ 1 ] = "Dis2.html"
-	   links[ 2 ] = "Dis3.html"
-	   links[ 3 ] = "Dis4.html"
-	   links[ 4 ] = "Dis5.html"
-	   links[ 5 ] = "Dis6.html"
-	   links[ 6 ] = "Dis7.html"
-	   links[ 7 ] = "Dis8.html"
-	   links[ 8 ] = "Dis9.html"
-	   links[ 9 ] = "Dis10.html"
-	   links[ 10 ] = "Dis11.html"
+	      var links = new Array()
+	      links[ 0 ] = "Figowka_Gronkowcowa.html"
+	      links[ 1 ] = "Dis2.html"
+	      links[ 2 ] = "Dis3.html"
+	      links[ 3 ] = "Dis4.html"
+	      links[ 4 ] = "Dis5.html"
+	      links[ 5 ] = "Dis6.html"
+	      links[ 6 ] = "Dis7.html"
+	      links[ 7 ] = "Dis8.html"
+	      links[ 8 ] = "Dis9.html"
+	      links[ 9 ] = "Dis10.html"
+	      links[ 10 ] = "Dis11.html"
 
-	   function RandomizePage() {
-	      var a = Math.floor( Math.random() * links.length );
-	      var i = a;
-	      var last = links[ links.length - 1 ];
-	      links.push( "Error.html" );
+	      function RandomizePage() {
+	         var a = Math.floor( Math.random() * links.length );
+	         var i = a;
+	         var last = links[ links.length - 1 ];
+	         links.push( "Error.html" );
 
-	      if ( i > last ) {
-	          parent.location = links[ last ];
-	      } else {
-	          parent.location = links[ i ];
+	         if ( i > last ) {
+	             parent.location = links[ last ];
+	         } else {
+	             parent.location = links[ i ];
+	         }
+	         return false;
 	      }
-	      return false;
-	   }
 
 	</script>
 </head>
