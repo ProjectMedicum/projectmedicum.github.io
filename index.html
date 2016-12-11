@@ -8,25 +8,26 @@
 	<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity=
 	"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" rel="stylesheet">
 	<script type="text/javascript">
-	         //src="RandomPage.js"
+	            //src="RandomPage.js"
 
-	         var links = new Array()
-	         links[ 0 ] = "Figowka_Gronkowcowa.html"
-	         links[ 1 ] = "Borelioza.html"
+	            var links = new Array()
+	            links[ 0 ] = "Figowka_Gronkowcowa.html"
+	            links[ 1 ] = "Borelioza.html"
 
-	         function RandomizePage() {
-	            var a = Math.floor( Math.random() * links.length );
-	            var i = a;
-	            var last = links[ links.length - 1 ];
-	            links.push( "Error.html" );
+	            function RandomizePage() {
+	               var a = Math.floor( Math.random() * links.length );
+	               var i = a;
+	               var last = links[ links.length - 1 ];
+	               /*links.push( "Error.html" );
 
-	            if ( i > last ) {
-	                parent.location = links[ last ];
-	            } else {
-	                parent.location = links[ i ];
+	               if ( i > last ) {
+	                   parent.location = links[ last ];
+	               } else {
+	                   parent.location = links[ i ];
+	               }
+	               return false;*/
+	            parent.location = links[ i ];
 	            }
-	            return false;
-	         }
 
 	</script>
 </head>
