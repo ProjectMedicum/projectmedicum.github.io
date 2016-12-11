@@ -7,27 +7,25 @@
 	<meta charset="UTF-8">
 	<link href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css' rel=
 	'stylesheet prefetch'>
-	<script type="text/javascript">
-	                     //src="RandomPage.js"
+	<script type="text/javascript"> //src="RandomPage.js"
 
-	                     var links = new Array()
-	                     links[ 0 ] = "Figowka_Gronkowcowa.html"
-	                     links[ 1 ] = "Borelioza.html"
+	var links = new Array()
+		links[ 0 ] = "Figowka_Gronkowcowa.html"
+		links[ 1 ] = "Borelioza.html"
 
-	                     function RandomizePage() {
-	                        var a = Math.floor( Math.random() * links.length );
-	                        var i = a;
-	                        var last = links[ links.length - 1 ];
-	                        /*links.push( "Error.html" );
-
-	                        if ( i > last ) {
-	                            parent.location = links[ last ];
-	                        } else {
-	                            parent.location = links[ i ];
-	                        }
-	                        return false;*/
-	                     parent.location = links[ i ];
-	                     }
+	function RandomizePage() {
+		var a = Math.floor( Math.random() * links.length );
+		var i = a;
+		var last = links[ links.length - 1 ];
+		/*links.push( "Error.html" );
+		if ( i > last ) {
+		parent.location = links[ last ];
+		} else {
+		parent.location = links[ i ];
+		}
+		return false;*/
+		parent.location = links[ i ];
+	}
 
 	</script>
 </head>
