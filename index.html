@@ -4,34 +4,17 @@
 <head>
 	<title>Medicum</title>
 	<base href="Disease/Diseases.html">
-	<meta charset="UTF-8">
-	<link href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css' rel=
-	'stylesheet prefetch'>
-	<script type="text/javascript"> //src="RandomPage.js"
-
-	var links = new Array()
-		links[ 0 ] = "Figowka_Gronkowcowa.html"
-		links[ 1 ] = "Borelioza.html"
-
-	function RandomizePage() {
-		var a = Math.floor( Math.random() * links.length );
-		var i = a;
-		var last = links[ links.length - 1 ];
-		/*links.push( "Error.html" );
-		if ( i > last ) {
-		parent.location = links[ last ];
-		} else {
-		parent.location = links[ i ];
-		}
-		return false;*/
-		parent.location = links[ i ];
-	}
-
+	<meta charset="UTF-8"> <!-- Obsługa polskich znaków -->
+	<link href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet prefetch'> <!-- Bootstrap CDN -->
+	<script type="text/javascript" src="../JavaScript/RandomPage.js"> //Skrypt losujący chorobę
 	</script>
 </head>
 
 <body>
-	<nav class="navbar navbar-inverse">
+
+<!-- Pasek nawigacyjny -->
+
+	<nav class="navbar navbar-inverse"> 
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<a class="navbar-brand" href="#">Project Medicum</a>
@@ -62,6 +45,7 @@
 		</div>
 	</nav>
 
+<!-- Koniec paska nawigacyjnego-->
 
 	<div class="container">
 		<h2>Lorem ipsum</h2>

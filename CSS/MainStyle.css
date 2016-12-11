@@ -1,3 +1,24 @@
-.html {
-  font-family: Helvetica;
+body {
+
 }
+
+h1 {
+	text-align: center;
+}
+
+p {
+	text-indent: 25px;
+}
+
+
+
+
+/*
+	Jak dodać kolejne elementy stylu:
+		1. Wejdź na tę stronę: http://www.w3schools.com/css/css_syntax.asp
+		2. Przeczytaj.
+		3. ???
+		4. Profit.
+
+		PS. Id nadaje sie poprzez dopisanie do tagu "id="CokolwiekSobieWymyślisz"", np. <p id="WodaMineralna">Lorem ipsum</p>
+/*
