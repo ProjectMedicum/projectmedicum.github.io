@@ -2,10 +2,11 @@
 //NIE CZYŚCIĆ KODU!
 
 var links = new Array()
-links[ 0 ] = "Figowka_Gronkowcowa.html"
-links[ 1 ] = "Borelioza.html"
-links[ 2 ] = "Osteoporoza.html"
-links[ 3 ] = "Dna_Moczanowa.html"
+links[ 0 ] = "Borelioza.html"
+links[ 1 ] = "Cukrzycowa_Choroba_Nerek.html"
+links[ 2 ] = "Dna_Moczanowa.html"
+links[ 3 ] = "Figowka_Gronkowcowa.html"
+links[ 4 ] = "Osteoporoza"
 
 /*------------- Nie dotykać kodu pod tą linią -------------*/
 
