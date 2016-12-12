@@ -5,6 +5,7 @@ var links = new Array()
 links[ 0 ] = "Figowka_Gronkowcowa.html"
 links[ 1 ] = "Borelioza.html"
 links[ 2 ] = "Osteoporoza.html"
+links[ 3 ] = "Dna_Moczanowa.html"
 
 /*------------- Nie dotykać kodu pod tą linią -------------*/
 
