@@ -1,12 +1,29 @@
+body {
+
+}
+
 h1 {
-    text-align: center;
+	text-align: center;
 }
 
 h3 {
-    text-align: center;
-    text-decoration: underline;
+	text-align: center;
+	text-decoration: underline;
 }
 
 p {
-    text-indent: 25px;
+	text-indent: 25px;
 }
+
+
+
+
+/*
+	Jak dodać kolejne elementy stylu:
+		1. Wejdź na tę stronę: http://www.w3schools.com/css/css_syntax.asp
+		2. Przeczytaj.
+		3. ???
+		4. Profit.
+
+		PS. Id nadaje sie poprzez dopisanie do tagu "id="CokolwiekSobieWymyślisz"", np. <p id="WodaMineralna">Lorem ipsum</p>
+/*
