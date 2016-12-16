@@ -1,65 +1,67 @@
 <!DOCTYPE html>
-
 <html>
+
 <head>
-	<title>Cukrzycowa Choroba Nerek - Project Medicum</title>
-	<meta charset="UTF-8">
-	<link href="../CSS/MainStyle.css" rel="stylesheet">
-	<link href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet prefetch'>
+    <title>Cukrzycowa Choroba Nerek - Project Medicum</title>
+    <meta charset="UTF-8">
+    <link href="../CSS/MainStyle.css" rel="stylesheet">
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet prefetch'>
+    <script src="../JavaScript/RandomPage.js" type="text/javascript"></script>
+    <!--Skrypt losujący chorobę-->
+    <script src="../JavaScript/PreviousPage.js" type="text/javascript"></script>
+    <!--Skrypt powracający do poprzedniej strony-->
 </head>
 
-
 <body>
-	<div class="page-header">
-		<h1>Cukrzycowa Choroba Nerek <small>Diabetic Nephropathy</small></h1><br>
-	</div>
-
-
-	<div class="container">
-		<h3>Patogeneza</h3>
-
-
-		<p>Progresywna choroba nerek powodowana przez uszkodzenia naczynek w kłębuszkach nerek. Charakteryzuje się <a href="../Disease/Zespol_Nerczycowy.html">Zespołem Nerczycowym</a> i <a href="../Disease/Bliznowacenie_Klebuszkow_Nerek.html">bliznowaceniem kłębuszków nerek</a>. Ze względu na przewlekłość
-		<a href="../Disease/Cukrzyca.html">cukrzycy</a>, w wielu krajach zaleca się zastosowanie dializy.</p>
-
-		<hr>
-
-
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-lg-6">
-					<h3 style="text-align: center;">Przyczyny</h3>
-
-
-					<p>Przyczyny cukrzycowej choroby nerek nie są dobrze znane, jednak uważa się, że wysoki poziom cukru we krwi, cytokiny i formowanie się zaawansowanego produktu końcowego glikolizy mogą być czynnnikami powodującymi rozwój tej choroby. Uszkodzenie nerek jest prawdopodobne, jeżeli spełniony jest jeden, lub więcej z następujących warunków: <ul><li>Wysokie ciśnienie krwi</li><li>Cukrzyca typu II</li><li>Palenie papierosów</li><li>Problemy z nerkami występowały w rodzinie</li></ul></p>
-
-					<hr>
-				</div>
-
-
-				<div class="col-lg-6">
-					<h3 style="text-align: center;">Objawy</h3>
-
-
-					<p>W początkowych fazach ta choroba nerek nie ma objawów. Te mogą się pojawić 5 do 10 lat po pierwszych uszkodzeniach. Należą do nich: <ul><li>Zmęczenie</li><li>Bóle głowy</li><li>Wrażenie bycia chorym</li><li>Nudności</li><li>Wymioty</li><li>Brak apetytu</li><li>Swędzenie skóry</li></ul></p>
-
-					<hr>
-				</div>
-			</div>
-		</div>
-
-
-		<h3>Leczenie</h3>
-
-
-		<p>Celami leczenie jest spowolnienie rozwoju uszkodzenia nerek i kontrola powiązanych powikłań. Główną metodą leczenia jest podawanie inhibitorów ACE (Inhibitory Konwertazy Angiotensyny), takich jak <a href="https://pl.wikipedia.org/wiki/Kaptopryl">kaptopryl</a>, które zwykle zmiejszają ilość białka w moczu i spowalniają rozwój choroby. Ponadto kontroluje się wysokie ciśnienie krwi i poziom cukru oraz ogranicza się ilość soli w diecie.</p>
-		
-		<hr>
-		<br>
-
-
-		<p style="text-align: center; font-size:12px">Chcesz wiedzieć więcej? Przeczytaj artykuł na <a href="https://en.wikipedia.org/wiki/Diabetic_nephropathy" target="blank">Wikipedii</a>.</p>
-		<br>
-	</div>
+    <div class="pull-right" id="AnotherDisease"><a class="btn btn-default" href="javascript:RandomizePage()">Another Disease</a></div>
+    <div class="pull-left" id="PreviousDisease"><a class="btn btn-default" href="javascript:goBack()">Previous Page</a></div>
+    <div class="page-header">
+        <h1>Cukrzycowa Choroba Nerek <small>Diabetic Nephropathy</small></h1>
+        <br>
+    </div>
+    <div class="container">
+        <h3>Patogeneza</h3>
+        <p>Progresywna choroba nerek powodowana przez uszkodzenia naczynek w kłębuszkach nerek. Charakteryzuje się <a href="../Disease/Zespol_Nerczycowy.html">Zespołem Nerczycowym</a> i <a href="../Disease/Bliznowacenie_Klebuszkow_Nerek.html">bliznowaceniem kłębuszków nerek</a>. Ze względu na przewlekłość
+            <a href="../Disease/Cukrzyca.html">cukrzycy</a>, w wielu krajach zaleca się zastosowanie dializy.</p>
+        <hr>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 style="text-align: center;">Przyczyny</h3>
+                    <p>Przyczyny cukrzycowej choroby nerek nie są dobrze znane, jednak uważa się, że wysoki poziom cukru we krwi, cytokiny i formowanie się zaawansowanego produktu końcowego glikolizy mogą być czynnnikami powodującymi rozwój tej choroby. Uszkodzenie nerek jest prawdopodobne, jeżeli spełniony jest jeden, lub więcej z następujących warunków:
+                        <ul>
+                            <li>Wysokie ciśnienie krwi</li>
+                            <li>Cukrzyca typu II</li>
+                            <li>Palenie papierosów</li>
+                            <li>Problemy z nerkami występowały w rodzinie</li>
+                        </ul>
+                    </p>
+                    <hr>
+                </div>
+                <div class="col-lg-6">
+                    <h3 style="text-align: center;">Objawy</h3>
+                    <p>W początkowych fazach ta choroba nerek nie ma objawów. Te mogą się pojawić 5 do 10 lat po pierwszych uszkodzeniach. Należą do nich:
+                        <ul>
+                            <li>Zmęczenie</li>
+                            <li>Bóle głowy</li>
+                            <li>Wrażenie bycia chorym</li>
+                            <li>Nudności</li>
+                            <li>Wymioty</li>
+                            <li>Brak apetytu</li>
+                            <li>Swędzenie skóry</li>
+                        </ul>
+                    </p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <h3>Leczenie</h3>
+        <p>Celami leczenie jest spowolnienie rozwoju uszkodzenia nerek i kontrola powiązanych powikłań. Główną metodą leczenia jest podawanie inhibitorów ACE (Inhibitory Konwertazy Angiotensyny), takich jak <a href="https://pl.wikipedia.org/wiki/Kaptopryl">kaptopryl</a>, które zwykle zmiejszają ilość białka w moczu i spowalniają rozwój choroby. Ponadto kontroluje się wysokie ciśnienie krwi i poziom cukru oraz ogranicza się ilość soli w diecie.</p>
+        <hr>
+        <br>
+        <p style="text-align: center; font-size:12px">Chcesz wiedzieć więcej? Przeczytaj artykuł na <a href="https://en.wikipedia.org/wiki/Diabetic_nephropathy" target="blank">Wikipedii</a>.</p>
+        <br>
+    </div>
 </body>
+
 </html>

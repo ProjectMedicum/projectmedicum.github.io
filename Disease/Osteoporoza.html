@@ -1,86 +1,53 @@
 <!DOCTYPE html>
-
 <html>
+
 <head>
-	<title>Osteoporoza - Project Medicum</title>
-	<meta charset="UTF-8">
-	<link href="../CSS/MainStyle.css" rel="stylesheet">
-	<link href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet prefetch'>
+    <title>Osteoporoza - Project Medicum</title>
+    <meta charset="UTF-8">
+    <link href="../CSS/MainStyle.css" rel="stylesheet">
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet prefetch'>
+    <script src="../JavaScript/RandomPage.js" type="text/javascript"></script>
+    <!--Skrypt losujący chorobę-->
+    <script src="../JavaScript/PreviousPage.js" type="text/javascript"></script>
+    <!--Skrypt powracający do poprzedniej strony-->
 </head>
 
 <body>
-	<div class="page-header">
-		<h1>Osteoporoza <small>Osteoporosis</small></h1><br>
-	</div>
-
-
-	<div class="container">
-		<h3>Patogeneza</h3>
-
-
-		<p>Osteoporozą nazywa się postępujący ubytek masy kostnej, większa podatność na złamania i ogólnym osłabieniem struktury kości. Jest to
-		choroba metaboliczna kości, najczęściej występująca jako następstwo menopauzy u kobiet (osteoporoza pomenopauzalna). Osteoporozę dzieli
-		się na miejscową, uogólnioną (tą zaś na idiopatyczną, inwolucyjną i pomenopauzalną) oraz wtórną.</p>
-
-		<hr>
-
-
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-lg-6">
-					<h3 style="text-align: center;">Przyczyny</h3>
-
-
-					<p>Na występowanie osteoporozy mają wpływ nieprawidłowa dieta, palenie papierosów, picie alkoholu, niedobór witaminy D, uwarunkowania
-					genetyczne, szczupła budowa ciała, zaawansowany wiek, przekwitanie czy mukowiscydoza. Wbrew popularnej opinii, spożywanie kawy nie
-					zwiększa ryzyka rozwoju osteoporozy. Na rozwój choroby ma też wpływ niedobór hormonów działających ochronnie, tj. estrogen u kobiet i
-					testosteron u mężczyzn. Osteoporoza może występować razem z cukrzycą, niedoczynnością przsadki, kamicą nerkową czy zespołem Cushinga.
-					Swój wpływ na rozwój choroby mają niektóre leki: nasenne, hormony tarczycy, heparyna, barbiturany, kortykosterydy i fenytoina.</p>
-
-					<hr>
-				</div>
-
-
-				<div class="col-lg-6">
-					<h3 style="text-align: center;">Objawy</h3>
-
-
-					<p>Choroba przebiega bezobjawowo w początkowej fazie rozwoju. Dopiero później pojawiają się objawy świadczące o jawnej osteoporozie.
-					Najczęstsze z nich to obniżenie wzrostu, spowodowane złamaniem kompresyjnym kręgów, bóle kości długich, złamania kości przy
-					jakichkolwiek urazach, nadmierna kifoza piersiowa.</p>
-
-					<hr>
-				</div>
-			</div>
-		</div>
-
-
-		<h3>Diagnostyka</h3>
-
-
-		<p>W celu zdiagnozowania osteoporozy wykorzystuje się badania poziomu wapnia i fosforu, biopsję kości oraz przede wszystki badanie
-		densytometryczne, określające BMD (gęstość mineralna kości).</p>
-
-		<hr>
-
-
-		<h3>Leczenie</h3>
-
-
-		<p>Istnieją dwie metody leczenia osteoporozy, tworzenie tkanki kostnej i hamowanie jej ubytku. Oba sposoby są skomplikowane i nierzadko
-		wymagają korekt. W celu leczenia osteoporozy stosuje się bisfofoniany, preparaty wapnia i witaminy D, fluorki, raloksifen (zmniejsza
-		stężenie cholesterolu całkowitego i frakcji LDL), terypartyd (pobudza proces tworzenia kości), kalcytoninę i ranelinian strontu. Osoby
-		zagrożone wystąpieniem osteoporozy powinny usunąć, lub chociaż maksymalnie zminimalizować czynniki prowadzące do rozwoju choroby i
-		uzupełniać niedobory wapnia, witaminy D oraz białka. Zaleca się uprawianie sportu w celu wzmocnienia kości, szczególnie kobietom przed
-		menopauzą.</p>
-
-		<hr>
-		<br>
-
-
-		<p style="text-align: center; font-size:12px">Chcesz wiedzieć więcej? Przeczytaj artykuł na <a href=
-		"https://pl.wikipedia.org/wiki/Osteoporoza" target="blank">Wikipedii</a>.</p>
-		<br>
-	</div>
+    <div class="pull-right" id="AnotherDisease"><a class="btn btn-default" href="javascript:RandomizePage()">Another Disease</a></div>
+    <div class="pull-left" id="PreviousDisease"><a class="btn btn-default" href="javascript:goBack()">Previous Page</a></div>
+    <div class="page-header">
+        <h1>Osteoporoza <small>Osteoporosis</small></h1>
+        <br>
+    </div>
+    <div class="container">
+        <h3>Patogeneza</h3>
+        <p>Osteoporozą nazywa się postępujący ubytek masy kostnej, większa podatność na złamania i ogólnym osłabieniem struktury kości. Jest to choroba metaboliczna kości, najczęściej występująca jako następstwo menopauzy u kobiet (osteoporoza pomenopauzalna). Osteoporozę dzieli się na miejscową, uogólnioną (tą zaś na idiopatyczną, inwolucyjną i pomenopauzalną) oraz wtórną.</p>
+        <hr>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 style="text-align: center;">Przyczyny</h3>
+                    <p>Na występowanie osteoporozy mają wpływ nieprawidłowa dieta, palenie papierosów, picie alkoholu, niedobór witaminy D, uwarunkowania genetyczne, szczupła budowa ciała, zaawansowany wiek, przekwitanie czy mukowiscydoza. Wbrew popularnej opinii, spożywanie kawy nie zwiększa ryzyka rozwoju osteoporozy. Na rozwój choroby ma też wpływ niedobór hormonów działających ochronnie, tj. estrogen u kobiet i testosteron u mężczyzn. Osteoporoza może występować razem z cukrzycą, niedoczynnością przsadki, kamicą nerkową czy zespołem Cushinga. Swój wpływ na rozwój choroby mają niektóre leki: nasenne, hormony tarczycy, heparyna, barbiturany, kortykosterydy i fenytoina.</p>
+                    <hr>
+                </div>
+                <div class="col-lg-6">
+                    <h3 style="text-align: center;">Objawy</h3>
+                    <p>Choroba przebiega bezobjawowo w początkowej fazie rozwoju. Dopiero później pojawiają się objawy świadczące o jawnej osteoporozie. Najczęstsze z nich to obniżenie wzrostu, spowodowane złamaniem kompresyjnym kręgów, bóle kości długich, złamania kości przy jakichkolwiek urazach, nadmierna kifoza piersiowa.</p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <h3>Diagnostyka</h3>
+        <p>W celu zdiagnozowania osteoporozy wykorzystuje się badania poziomu wapnia i fosforu, biopsję kości oraz przede wszystki badanie densytometryczne, określające BMD (gęstość mineralna kości).</p>
+        <hr>
+        <h3>Leczenie</h3>
+        <p>Istnieją dwie metody leczenia osteoporozy, tworzenie tkanki kostnej i hamowanie jej ubytku. Oba sposoby są skomplikowane i nierzadko wymagają korekt. W celu leczenia osteoporozy stosuje się bisfofoniany, preparaty wapnia i witaminy D, fluorki, raloksifen (zmniejsza stężenie cholesterolu całkowitego i frakcji LDL), terypartyd (pobudza proces tworzenia kości), kalcytoninę i ranelinian strontu. Osoby zagrożone wystąpieniem osteoporozy powinny usunąć, lub chociaż maksymalnie zminimalizować czynniki prowadzące do rozwoju choroby i uzupełniać niedobory wapnia, witaminy D oraz białka. Zaleca się uprawianie sportu w celu wzmocnienia kości, szczególnie kobietom przed menopauzą.
+        </p>
+        <hr>
+        <br>
+        <p style="text-align: center; font-size:12px">Chcesz wiedzieć więcej? Przeczytaj artykuł na <a href="https://pl.wikipedia.org/wiki/Osteoporoza" target="blank">Wikipedii</a>.</p>
+        <br>
+    </div>
 </body>
+
 </html>

@@ -1,64 +1,49 @@
 <!DOCTYPE html>
-
 <html>
+
 <head>
-	<title>Nazwa - Project Medicum</title>
-	<meta charset="UTF-8">
-	<link href="../CSS/MainStyle.css" rel="stylesheet">
-	<link href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet prefetch'>
+    <title>Nazwa - Project Medicum</title>
+    <meta charset="UTF-8">
+    <link href="../CSS/MainStyle.css" rel="stylesheet">
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet prefetch'>
+    <script src="../JavaScript/RandomPage.js" type="text/javascript"></script>
+    <!--Skrypt losujący chorobę-->
+    <script src="../JavaScript/PreviousPage.js" type="text/javascript"></script>
+    <!--Skrypt powracający do poprzedniej strony-->
 </head>
 
-
 <body>
-	<div class="page-header">
-		<h1>Nazwa <small>Łac. nazwa</small></h1><br>
-	</div>
-
-
-	<div class="container">
-		<h3>Patogeneza</h3>
-
-
-		<p>tekst</p>
-
-		<hr>
-
-
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-lg-6">
-					<h3 style="text-align: center;">Przyczyny</h3>
-
-
-					<p>tekst</p>
-
-					<hr>
-				</div>
-
-
-				<div class="col-lg-6">
-					<h3 style="text-align: center;">Objawy</h3>
-
-
-					<p>tekst</p>
-
-					<hr>
-				</div>
-			</div>
-		</div>
-
-
-		<h3>Leczenie</h3>
-
-
-		<p>tekst</p>
-		
-		<hr>
-		<br>
-
-
-		<p style="text-align: center; font-size:12px">Chcesz wiedzieć więcej? Przeczytaj artykuł na <a href="#" target="blank">Wikipedii</a>.</p>
-		<br>
-	</div>
+    <div class="pull-right" id="AnotherDisease"><a class="btn btn-default" href="javascript:RandomizePage()">Another Disease</a></div>
+    <div class="pull-left" id="PreviousDisease"><a class="btn btn-default" href="javascript:goBack()">Previous Page</a></div>
+    <div class="page-header">
+        <h1>Nazwa <small>Łac. nazwa</small></h1>
+        <br>
+    </div>
+    <div class="container">
+        <h3>Patogeneza</h3>
+        <p>tekst</p>
+        <hr>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 style="text-align: center;">Przyczyny</h3>
+                    <p>tekst</p>
+                    <hr>
+                </div>
+                <div class="col-lg-6">
+                    <h3 style="text-align: center;">Objawy</h3>
+                    <p>tekst</p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <h3>Leczenie</h3>
+        <p>tekst</p>
+        <hr>
+        <br>
+        <p style="text-align: center; font-size:12px">Chcesz wiedzieć więcej? Przeczytaj artykuł na <a href="#" target="blank">Wikipedii</a>.</p>
+        <br>
+    </div>
 </body>
+
 </html>
