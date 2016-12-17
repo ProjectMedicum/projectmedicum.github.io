@@ -16,5 +16,5 @@ function RandomizePage() {
         links.splice(CurrentPage, 1);
     }
     var a = Math.floor(Math.random() * links.length);
-    parent.location = links[a];
+    window.location.href = links[a];
 }
