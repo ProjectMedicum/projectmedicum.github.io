@@ -1,7 +1,7 @@
 //NIE CZYŚCIĆ KODU!
 
 var links = new Array();
-links[0] = "projectmedicum.github.io/Disease/Borelioza.html ";
+links[0] = "projectmedicum.github.io/Disease/Borelioza.html";
 links[1] = "projectmedicum.github.io/Disease/Cukrzycowa_Choroba_Nerek.html";
 links[2] = "projectmedicum.github.io/Disease/Dna_Moczanowa.html";
 links[3] = "projectmedicum.github.io/Disease/Figowka_Gronkowcowa.html";
@@ -9,18 +9,12 @@ links[4] = "projectmedicum.github.io/Disease/Osteoporoza.html";
 
 /*------------- Nie dotykać kodu pod tą linią -------------*/
 
-/*function RandomizePage() {
-    var a = Math.floor(Math.random() * links.length);
-	parent.location = links[a];
-    }
-}*/
-
-
+// 17/12/2016 18:53 REPETITIVE PAGES ARE NO MORE! THE KING IS DEAD, LONG LIVE THE KING!
 function RandomizePage() {
-    do {
-        var a = Math.floor(Math.random() * links.length);
+    var CurrentPage = links.indexOf(window.location.href);
+    if (CurrentPage > -1) {
+        links.splice(CurrentPage, 1);
     }
-    while (links[a] === window.location.href);
-
+    var a = Math.floor(Math.random() * links.length);
     parent.location = links[a];
 }
