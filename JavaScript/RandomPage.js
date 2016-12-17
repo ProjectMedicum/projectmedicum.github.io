@@ -1,11 +1,11 @@
 //NIE CZYŚCIĆ KODU!
 
 var links = new Array();
-links[0] = "projectmedicum.github.io/Disease/Borelioza.html";
-links[1] = "projectmedicum.github.io/Disease/Cukrzycowa_Choroba_Nerek.html";
-links[2] = "projectmedicum.github.io/Disease/Dna_Moczanowa.html";
-links[3] = "projectmedicum.github.io/Disease/Figowka_Gronkowcowa.html";
-links[4] = "projectmedicum.github.io/Disease/Osteoporoza.html";
+links[0] = "https://projectmedicum.github.io/Disease/Borelioza.html";
+links[1] = "https://projectmedicum.github.io/Disease/Cukrzycowa_Choroba_Nerek.html";
+links[2] = "https://projectmedicum.github.io/Disease/Dna_Moczanowa.html";
+links[3] = "https://projectmedicum.github.io/Disease/Figowka_Gronkowcowa.html";
+links[4] = "https://projectmedicum.github.io/Disease/Osteoporoza.html";
 
 /*------------- Nie dotykać kodu pod tą linią -------------*/
 
