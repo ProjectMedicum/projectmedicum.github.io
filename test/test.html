@@ -1,1 +1,23 @@
-Lorem ipsum bla bla bla
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.js"></script>
+    <script type="text/javascript">
+    function loadPage(href) {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.open("GET", href, false);
+        xmlhttp.send();
+        return xmlhttp.responseText;
+    }
+    </script>
+</head>
+
+<body>
+    <div onClick="document.getElementById('bottom').innerHTML = 
+                      loadPage('kupa.html');">Home</div>
+    <div id="bottom"></div>
+</body>
+
+</html>
