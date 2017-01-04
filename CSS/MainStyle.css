@@ -1,7 +1,6 @@
 h1 {
     text-align: center;
 }
-
 h3 {
     text-align: center;
     text-decoration: underline;
@@ -13,10 +12,19 @@ p {
 
 #AnotherDisease {
     margin-right: 60px;
+    
 }
 
 #PreviousDisease {
     margin-left: 60px;
+}
+
+#Brand {
+    color: #E4E4E4;
+}
+
+dt {
+    text-align: right;
 }
 
 

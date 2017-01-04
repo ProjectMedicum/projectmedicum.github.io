@@ -1,38 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
 
 <head>
     <title>Figówka Gronkowcowa - Project Medicum</title>
-    <meta charset="UTF-8">
-    <link href="../CSS/MainStyle.css" rel="stylesheet">
-    <link href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet prefetch'>
-    <script src="../JavaScript/RandomPage.js" type="text/javascript"></script>
-    <!--Skrypt losujący chorobę-->
-    <script src="../JavaScript/PreviousPage.js" type="text/javascript"></script>
-    <!--Skrypt powracający do poprzedniej strony-->
+    <base href="Disease/Diseases.html">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Fayacre">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <!-- Bootstrap -->
+    <link href="../../CSS/MainStyle.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="pull-right" id="AnotherDisease"><a class="btn btn-default" href="javascript:RandomizePage()">Kolejna Choroba</a></div>
-    <div class="pull-left" id="PreviousDisease"><a class="btn btn-default" href="javascript:goBack()">Poprzednia Strona</a></div>
-    <div class="page-header">
-        <h1>Figówka Gronkowcowa <small>Staphylococcus sycosis</small></h1>
-        <br>
+    <br>
+    <div class="float-xs-right" id="AnotherDisease"><a class="btn btn-secondary" href="javascript:RandomizePage()">Kolejna Choroba</a>
     </div>
+    <div class="float-xs-left" id="PreviousDisease"><a class="btn btn-secondary" href="javascript:goBack()">Poprzednia Strona</a>
+    </div>
+    <h1 style="text-align: center">Figówka Gronkowcowa <small class="text-muted" style="font-size: 1.5rem">Staphylococcus sycosis</small></h1>
+    <hr>
     <div class="container">
         <h3>Patogeneza</h3>
         <p>Figówka gronkowcowa jest przewlekłym, ropnym zapaleniem mieszków włosowych. Stan zapalny najczęściej rozwija się w okolicach owłosionej skóry twarzy, tj. policzków, brody czy górnej wargi. Zdecydowaniej rzadziej występuje na karku czy klatce piersiowej. Ze względu na to choroba diagnozowana jest głównie u mężczyzn. Figówka jest chorobą przewlekłą, obajwy zwykle występują od kilku miesięcy do nawet <u>kilku lat</u>.</p>
         <hr>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-xl-6">
                     <h3 style="text-align: center;">Przyczyny</h3>
                     <p>Przyczyną przewlekłego stanu zapalnego mieszków włosowych jest zakażenie gronkowcem skórnym (łac. <i>Staphylococcus
-					epidermidis</i>). Skórę człowieka "zamieszkują" różne bakterie, m. in. patogenne, takie jak gronkowiec złocisty (łac.
-                        <i>Staphylococcus aureus</i>) i paciorkowce ropne (łac. <i>Streptococcus pyogenes</i>), które wywołują ropne choroby skóry - piodermie. Patogeny rozwijają się dopiero w momencie uszkodzenia skóry, wtedy może dojść do wniknięcia bakterii w głąb mieszków włosowych i rozwoju zapalenia.</p>
+
+                    epidermidis</i>). Skórę człowieka "zamieszkują" różne bakterie, m. in. patogenne, takie jak gronkowiec złocisty (łac. <i>Staphylococcus aureus</i>) i paciorkowce ropne (łac. <i>Streptococcus pyogenes</i>), które wywołują ropne choroby skóry - piodermie. Patogeny rozwijają się dopiero w momencie uszkodzenia skóry, wtedy może dojść do wniknięcia bakterii w głąb mieszków włosowych i rozwoju zapalenia.</p>
                     <hr>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-xl-6">
                     <h3 style="text-align: center;">Objawy</h3>
                     <p>Liczne krosty tkwiące w ujściach mieszków włosowych są objawami figówki. Wszystkie zmiany wylądają na przebite włosem. Niektóre zmiany zasychają, pozostałe tworzą nacieki i guzy ropne. Stan zapalny prowadzi do wypadania włosów, co jest następstwem niszczenia brodawek włosowych, a na ich miejscu powstają blizny. Wyleczenie stanu zapalnego zwykle pozwala włosom na odrośnięcie.</p>
                     <hr>
@@ -43,9 +45,15 @@
         <p>Leczenie figówki gronkowcowej jest procesem długotrwałym. Stosuje się antybiotyki, zgodne z wynikami antybiogramu i posiewu, najczęściej miejscowo, jednakże w przypadku trudno leczących się zmian zalecane jest stosowanie antybiotyków ogólnoustrojowo. Ponadto powinno się nakładać na zmiany roztwór fioletu goryczki oraz stosować maści złuszczające. Należy dostarczać organizmowi witaminy, szczególne te z grupy B i C. Profilaktycznie zaleca się dbanie o higienę osobistą, tj. unikać maszynek elektrycznych, ponieważ pogarszają one stan skóry, i stosować maszynki jednorazowe. W przypadku maszynek wielorazowego użytku zaleca się ich regularne odkażanie, najlepiej po każdym użyciu.</p>
         <hr>
         <br>
-        <p style="text-align: center; font-size:12px">Chcesz wiedzieć więcej? Przeczytaj artykuł na <a href="#" target="blank">Wikipedii</a>.</p>
+        <p style="text-align: center; font-size: 12px;">Chcesz wiedzieć więcej? Przeczytaj artykuł na <a href="#" target="blank">Wikipedii</a>.</p>
         <br>
     </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+    <!-- BootStrap JS -->
+    <script src="../../JavaScript/RandomPage.js" type="text/javascript"></script>
+    <!--Skrypt losujący chorobę-->
 </body>
 
 </html>

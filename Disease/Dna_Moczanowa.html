@@ -1,36 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
 
 <head>
     <title>Dna Moczanowa - Project Medicum</title>
-    <meta charset="UTF-8">
-    <link href="../CSS/MainStyle.css" rel="stylesheet">
-    <link href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet prefetch'>
-    <script src="../JavaScript/RandomPage.js" type="text/javascript"></script>
-    <!--Skrypt losujący chorobę-->
-    <script src="../JavaScript/PreviousPage.js" type="text/javascript"></script>
-    <!--Skrypt powracający do poprzedniej strony-->
+    <base href="Disease/Diseases.html">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Fayacre">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <!-- Bootstrap -->
+    <link href="../../CSS/MainStyle.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="pull-right" id="AnotherDisease"><a class="btn btn-default" href="javascript:RandomizePage()">Kolejna Choroba</a></div>
-    <div class="pull-left" id="PreviousDisease"><a class="btn btn-default" href="javascript:goBack()">Poprzednia Strona</a></div>
-    <div class="page-header">
-        <h1>Dna Moczanowa <small>Diathesis urica</small></h1>
-        <br>
+    <br>
+    <div class="float-xs-right" id="AnotherDisease"><a class="btn btn-secondary" href="javascript:RandomizePage()">Kolejna Choroba</a>
     </div>
+    <div class="float-xs-left" id="PreviousDisease"><a class="btn btn-secondary" href="javascript:goBack()">Poprzednia Strona</a>
+    </div>
+    <h1 style="text-align: center">Dna Moczanowa <small class="text-muted" style="font-size: 1.5rem">Diathesis Urica</small></h1>
+    <hr>
     <div class="container">
         <h3>Patogeneza</h3>
         <p>Dna moczanowa to choroba cechująca się nawracającymi epizodami ostrego zapalenia stawów wywołanego przez odkładanie się kryształków kwasu moczowego w stawach, ścięgnach oraz otaczających je tkankach. Kryształki powodują podrażnienie zakończeń nerowych wywołując uczucie silnego bólu.</p>
-        <hr>
+        <hr />
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-xl-6">
                     <h3 style="text-align: center;">Przyczyny</h3>
                     <p>Kwas moczowy jest produktem przemiany materii (a dokładnie związków zwanych purynami). Prawidłowo wydalany jest przez nerki z moczem. W przypadku zwiększonej jego ilości w organizmie, nerki nie potrafią wydalić całej ilości kwasu moczowego, którego nadmiar odkłada się w stawach i powoduje stan zapalny. Praktycznie każdy może zachorować na dnę moczanową, ponieważ nerki mają ograniczoną zdolność do wydalania kwasu moczowego. W przeciwieństwie do powszechnych opinii, choroba nie jest spowodowana wystawnym trybem życia i łakomstwem. Skłonność do przejadania się i nadużywania alkoholu może wywołać atak dny u osób predysponowanych. Ma to związek z otyłością i wysokim ciśnieniem krwi. Niektóre leki (np. leki moczopędne), urazy, operacje lub głód również mogą wywołać atak dny.</p>
                     <hr>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-xl-6">
                     <h3 style="text-align: center;">Objawy</h3>
                     <p>Pierwszym objawem jest przeważnie nagły ostry ból w stawie.Występuje dość nieregularnie, jednakże możemy zauważyć zależność, że występuje on najcześciej w nocy oraz wczesnym rankiem. Narasta etapowo powodując, że staje się coraz silniejszy wraz z ilościa upływającego czasu. Po kilku dniach, czasem nawet tygodniach, staje się rozdzierający. Chory staw jest wrażliwy na dotyk, obrzęknięty i zaczerwieniony, skóra nad nim napięta, błyszcząca, czerwona lub sinopurpurowa.</p>
                     <hr>
@@ -41,9 +43,15 @@
         <p>Polega przede wszystkim na zastosowaniu adekwatnej diety oraz łagodzenia objawów lekami o charakterze NLPZ. Przeważnie stosowana jest kolchicyna oraz lekki wzagające diurezę.</p>
         <hr>
         <br>
-        <p style="text-align: center; font-size:12px">Chcesz wiedzieć więcej? Przeczytaj artykuł na <a href="https://pl.wikipedia.org/wiki/Dna_moczanowa" target="blank">Wikipedii</a>.</p>
+        <p style="text-align: center; font-size: 12px;">Chcesz wiedzieć więcej? Przeczytaj artykuł na <a href="https://pl.wikipedia.org/wiki/Dna_moczanowa" target="blank">Wikipedii</a>.</p>
         <br>
     </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+    <!-- BootStrap JS -->
+    <script src="../../JavaScript/RandomPage.js" type="text/javascript"></script>
+    <!--Skrypt losujący chorobę-->
 </body>
 
 </html>

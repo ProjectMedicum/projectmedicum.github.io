@@ -1,36 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
 
 <head>
     <title>Osteoporoza - Project Medicum</title>
-    <meta charset="UTF-8">
+    <base href="Disease/Diseases.html">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Fayacre">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <!-- Bootstrap -->
     <link href="../CSS/MainStyle.css" rel="stylesheet">
-    <link href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet prefetch'>
-    <script src="../JavaScript/RandomPage.js" type="text/javascript"></script>
-    <!--Skrypt losujący chorobę-->
-    <script src="../JavaScript/PreviousPage.js" type="text/javascript"></script>
-    <!--Skrypt powracający do poprzedniej strony-->
 </head>
 
 <body>
-    <div class="pull-right" id="AnotherDisease"><a class="btn btn-default" href="javascript:RandomizePage()">Kolejna Choroba</a></div>
-    <div class="pull-left" id="PreviousDisease"><a class="btn btn-default" href="javascript:goBack()">Poprzednia Strona</a></div>
-    <div class="page-header">
-        <h1>Osteoporoza <small>Osteoporosis</small></h1>
-        <br>
+    <br>
+    <div class="float-xs-right" id="AnotherDisease"><a class="btn btn-secondary" href="javascript:RandomizePage()">Kolejna Choroba</a>
     </div>
+    <div class="float-xs-left" id="PreviousDisease"><a class="btn btn-secondary" href="javascript:goBack()">Poprzednia Strona</a>
+    </div>
+    <h1 style="text-align: center">Osteoporoza <small class="text-muted" style="font-size: 1.5rem">Osteoporosis</small></h1>
+    <hr>
     <div class="container">
         <h3>Patogeneza</h3>
         <p>Osteoporozą nazywa się postępujący ubytek masy kostnej, większa podatność na złamania i ogólnym osłabieniem struktury kości. Jest to choroba metaboliczna kości, najczęściej występująca jako następstwo menopauzy u kobiet (osteoporoza pomenopauzalna). Osteoporozę dzieli się na miejscową, uogólnioną (tą zaś na idiopatyczną, inwolucyjną i pomenopauzalną) oraz wtórną.</p>
         <hr>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-xl-6">
                     <h3 style="text-align: center;">Przyczyny</h3>
                     <p>Na występowanie osteoporozy mają wpływ nieprawidłowa dieta, palenie papierosów, picie alkoholu, niedobór witaminy D, uwarunkowania genetyczne, szczupła budowa ciała, zaawansowany wiek, przekwitanie czy mukowiscydoza. Wbrew popularnej opinii, spożywanie kawy nie zwiększa ryzyka rozwoju osteoporozy. Na rozwój choroby ma też wpływ niedobór hormonów działających ochronnie, tj. estrogen u kobiet i testosteron u mężczyzn. Osteoporoza może występować razem z cukrzycą, niedoczynnością przsadki, kamicą nerkową czy zespołem Cushinga. Swój wpływ na rozwój choroby mają niektóre leki: nasenne, hormony tarczycy, heparyna, barbiturany, kortykosterydy i fenytoina.</p>
                     <hr>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-xl-6">
                     <h3 style="text-align: center;">Objawy</h3>
                     <p>Choroba przebiega bezobjawowo w początkowej fazie rozwoju. Dopiero później pojawiają się objawy świadczące o jawnej osteoporozie. Najczęstsze z nich to obniżenie wzrostu, spowodowane złamaniem kompresyjnym kręgów, bóle kości długich, złamania kości przy jakichkolwiek urazach, nadmierna kifoza piersiowa.</p>
                     <hr>
@@ -41,13 +43,19 @@
         <p>W celu zdiagnozowania osteoporozy wykorzystuje się badania poziomu wapnia i fosforu, biopsję kości oraz przede wszystki badanie densytometryczne, określające BMD (gęstość mineralna kości).</p>
         <hr>
         <h3>Leczenie</h3>
-        <p>Istnieją dwie metody leczenia osteoporozy, tworzenie tkanki kostnej i hamowanie jej ubytku. Oba sposoby są skomplikowane i nierzadko wymagają korekt. W celu leczenia osteoporozy stosuje się bisfofoniany, preparaty wapnia i witaminy D, fluorki, raloksifen (zmniejsza stężenie cholesterolu całkowitego i frakcji LDL), terypartyd (pobudza proces tworzenia kości), kalcytoninę i ranelinian strontu. Osoby zagrożone wystąpieniem osteoporozy powinny usunąć, lub chociaż maksymalnie zminimalizować czynniki prowadzące do rozwoju choroby i uzupełniać niedobory wapnia, witaminy D oraz białka. Zaleca się uprawianie sportu w celu wzmocnienia kości, szczególnie kobietom przed menopauzą.
-        </p>
+        <p>Istnieją dwie metody leczenia osteoporozy, tworzenie tkanki kostnej i hamowanie jej ubytku. Oba sposoby są skomplikowane i nierzadko wymagają korekt. W celu leczenia osteoporozy stosuje się bisfofoniany, preparaty wapnia i witaminy D, fluorki, raloksifen (zmniejsza stężenie cholesterolu całkowitego i frakcji LDL), terypartyd (pobudza proces tworzenia kości), kalcytoninę i ranelinian strontu. Osoby zagrożone wystąpieniem osteoporozy powinny usunąć, lub chociaż maksymalnie zminimalizować czynniki prowadzące do rozwoju choroby i uzupełniać niedobory wapnia, witaminy D oraz białka. Zaleca się uprawianie sportu w celu wzmocnienia kości, szczególnie kobietom przed menopauzą.</p>
         <hr>
-        <br>
-        <p style="text-align: center; font-size:12px">Chcesz wiedzieć więcej? Przeczytaj artykuł na <a href="https://pl.wikipedia.org/wiki/Osteoporoza" target="blank">Wikipedii</a>.</p>
+        <br
+>
+        <p style="text-align: center; font-size: 12px;">Chcesz wiedzieć więcej? Przeczytaj artykuł na <a href="https://pl.wikipedia.org/wiki/Osteoporoza" target="blank">Wikipedii</a>.</p>
         <br>
     </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+    <!-- BootStrap JS -->
+    <script src="../../JavaScript/RandomPage.js" type="text/javascript"></script>
+    <!--Skrypt losujący chorobę-->
 </body>
 
 </html>
